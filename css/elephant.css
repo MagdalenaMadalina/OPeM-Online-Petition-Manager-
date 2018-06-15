@@ -1,0 +1,177 @@
+body
+{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.container
+{
+	width: 80%;
+	margin: auto;
+}
+
+#petition-col img
+{
+	padding-left: 180px;
+	padding-top: 20px;
+}
+
+#petition-col h1
+{
+	padding-left: 220px;
+}
+
+#petition-col p
+{
+	padding-left: 180px;
+	padding-right: 490px;
+}
+
+#petition-col a
+{
+	font-size: 30px;
+	position: relative;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#petition-col .button2
+{
+	left: 350px;
+	background-color: #2e8b57;
+	padding: 6px 15px 6px 15px;
+
+}
+
+header
+{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a
+{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+header li
+{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+	float: left;
+}
+
+header #branding h1
+{
+	margin: 0;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a
+{
+	color: #e8491d
+	font-weight: bold;
+}
+
+header a:hover
+{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+.share-botton 
+{
+    width: 60px;
+    padding-left: 200px;
+    display: inline;
+}
+
+footer .quote
+{
+	margin-top: 30px;
+	background-color: #000000;
+}
+
+footer .quote p
+{
+	font-size: 25px;
+	color: #ffffff;
+	position: relative;
+	left: 150px;
+	padding-top: 27px;
+}
+
+footer .quote a
+{
+	font-size: 30px;
+	position: relative;
+	left: 970px;
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+footer .quote .button
+{
+	background-color: #2e8b57;
+	padding: 6px 15px 6px 15px;
+}
+
+footer .mission_statement
+{
+    margin-top: 1px;
+    background-color: #35424a;
+}
+
+footer .mission_statement .logo
+{
+	font-size: 30px;
+	color: #ffffff;
+	left: 150px;
+}
+
+
+
+footer .mission_statement p
+{
+	font-size: 15px;
+	position: relative;
+	left: 100px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+footer .copyright
+{
+	padding: 5px;
+	margin-top: -13px;
+	color: #ffffff;
+	background-color: #696969;
+	text-align: center;
+}

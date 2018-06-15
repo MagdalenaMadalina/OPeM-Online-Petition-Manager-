@@ -1,0 +1,135 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)), url(8.jpg);
+	background-size:cover;
+	background-position:center;
+	font-family: sans-serif;
+}
+
+.container
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a
+{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+header li
+{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+	float: left;
+}
+
+header #branding h1
+{
+	margin: 0;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a
+{
+	color: #e8491d
+	font-weight: bold;
+}
+
+header a:hover
+{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+
+.start-petition{
+	margin-top: 100px;
+	color: #000000;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+
+}
+
+.start-petition h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+.start-petition h2{
+	font-size: 16px;
+}
+form{
+	margin-top: 50px;
+	transition: 4s ease-in-out;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid grey;
+	color: 000000;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+input{
+	height: 45px;
+}
+form.submit{
+	background: #000000;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height:50px;
+	margin-top: 20px;
+}
+form.submit:hover{
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.start-a-petition p
+{
+	text-align: left;
+	padding-left: 400px;
+	color: #ffffff;
+}

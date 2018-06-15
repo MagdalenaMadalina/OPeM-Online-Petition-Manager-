@@ -1,0 +1,187 @@
+body
+{
+	font: 15px/1.5 Arial, Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	background:linear-gradient(rgba(0,0,150,0.5),rgba(0,0,50,0.5)), url("8.jpg");
+	background-size: cover;
+}
+
+.container
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.homered
+{
+	background-color: red;
+	padding: 30px 15px 12px 15px;
+}
+
+
+ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+header
+{
+	background: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a
+{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+header li
+{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+	float: left;
+}
+
+header #branding h1
+{
+	margin: 0;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a
+{
+	color: #e8491d
+	font-weight: bold;
+}
+
+header a:hover
+{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+.homered
+{
+	background-color: red;
+	padding: 5px 15px 5px 15px;
+}
+
+.title
+{
+	text-align: center;
+	padding: 50px 0 20px;
+}
+
+.title h1
+{
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.cont
+{
+	width: 50%;
+	height: 400px;
+	background: #fff;
+	margin: 0 auto;
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0,0,0,.5);
+}
+
+.cont .left
+{
+	float: left;
+	width: 50%;
+	height: 400px;
+	background: url("261.jpeg") no-repeat -125px -1px;;
+	background-size: cover;
+	box-sizing: border-box;
+}
+
+.cont .right
+{
+	float: right;
+	width: 50%;
+}
+
+.formBox
+{
+	width: 100%;
+	padding: 50px 9px; 
+	box-sizing: border-box;
+	height: 400px;
+	background: #fff;
+}
+
+.formBox p
+{
+	margin: 0;
+	font-weight: bold;
+	color: #e8491d;
+}
+
+.formBox input
+{
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.formBox input[type="text"],
+.formBox input[type="Password"]
+{
+	border-bottom: 2px solid #e8491d;
+	height: 40px;
+}
+
+.formBox input[type="text"]:focus,
+.formBox input[type="Password"]:focus
+{
+	border-bottom: 2px solid #262626;
+}
+
+.formBox input[type="submit"]
+{
+	height: 40px;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+}
+
+.formBox input[type="submit"]:hover
+{
+	background: #e8491d;
+}
+
+.formBox a
+{
+	color: #e8491d;
+	font-size: 12px;
+	font-weight: bold;
+}
